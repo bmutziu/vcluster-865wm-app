@@ -49,8 +49,8 @@ spec:
           namespace: argocd
         data:
           service.github: |
-            appID: 410217 
-            installationID: 43032092
+            appID: 1068811
+            installationID: 57583936
             privateKey: {{`"\$githubAppPrivateKey"`}}
           template.app-deployed: |
             message: |
