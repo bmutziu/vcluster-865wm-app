@@ -2,17 +2,18 @@ package main
 
 import (
 	"context"
-	"github.com/gin-gonic/gin"
-	"github.com/spf13/pflag"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/spf13/pflag"
 )
 
-var text = pflag.String("text", "", "text to put on the webpage")
+var text = pflag.String("text", "", "text to put on the webpage.")
 var addr = pflag.String("addr", ":8080", "address to listen on")
 
 func main() {
